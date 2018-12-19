@@ -6,11 +6,12 @@ public class BreakFruit : MonoBehaviour
 
     public Transform parts;
     private Transform breakable = null;
-    private int score = 0;
+
 
     public void Run()
     {
-          score++;
+      ScoreScript score = new ScoreScript();
+      score.addScore();
         if (breakable) return;
 
         breakable = (Transform)Instantiate(parts, transform.position, transform.rotation);
@@ -40,9 +41,5 @@ public class BreakFruit : MonoBehaviour
 
 
     }
-    public int getScore(){
 
-
-      return score;
-    }
 }

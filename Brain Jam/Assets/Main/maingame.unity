@@ -5492,6 +5492,17 @@ MonoBehaviour:
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
+--- !u!114 &372226365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 372226362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b94a40d728b7ad449d62f6fbc2fec1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &372226366 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 11417902, guid: 34c0cf54e8b579b45921abbcbdd36e9c,
@@ -13578,7 +13589,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b94a40d728b7ad449d62f6fbc2fec1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  points: {fileID: 1735052769}
 --- !u!114 &1735052769
 MonoBehaviour:
   m_ObjectHideFlags: 0
