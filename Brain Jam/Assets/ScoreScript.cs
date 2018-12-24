@@ -17,10 +17,11 @@ public void addScore(){
   score++;
    Debug.Log(score);
 }
-public int getScore(){
+public String getScore(){
+int temp;
+  temp = score;
 
-
-  return score;
+  return Convert.ToString(temp);
 }
 
 public void takeScore(){
