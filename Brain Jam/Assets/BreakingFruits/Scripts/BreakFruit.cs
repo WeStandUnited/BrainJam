@@ -11,6 +11,7 @@ public class BreakFruit : MonoBehaviour
     public void Run()
     {
       ScoreScript score = new ScoreScript();
+      // learn how to fix this ??
       score.addScore();
         if (breakable) return;
 
